@@ -1,0 +1,62 @@
+09/17/2014 3:39:20.022 AM - INFO  - The application is starting up...
+09/17/2014 3:39:20.090 AM - INFO  - DATABASE_QUERY.data_reader execute query: delete from Nodes
+09/17/2014 3:39:20.107 AM - DEBUG - DATABASE_QUERY.data_reader arguments:
+09/17/2014 3:39:25.827 AM - INFO  - DATABASE_QUERY.data_reader execute query: delete from Users
+09/17/2014 3:39:25.874 AM - DEBUG - DATABASE_QUERY.data_reader arguments:
+09/17/2014 3:39:47.602 AM - INFO  - USER_DATA_PROVIDER.new_user
+09/17/2014 3:39:50.597 AM - INFO  - DATABASE_QUERY.data_reader execute query: insert into users (username, password, salt, email) values (:username, :password, :salt, :email);
+09/17/2014 3:39:50.660 AM - DEBUG - DATABASE_QUERY.data_reader arguments:name:username, value:admin
+name:password, value:
+name:salt, value:x7eiiKDo/4AwMOKJ6nj84Q==
+name:email, value:admin@admin.com
+09/17/2014 3:40:14.443 AM - INFO  - USER_DATA_PROVIDER.new_user
+09/17/2014 3:40:17.347 AM - INFO  - DATABASE_QUERY.data_reader execute query: insert into users (username, password, salt, email) values (:username, :password, :salt, :email);
+09/17/2014 3:40:17.405 AM - DEBUG - DATABASE_QUERY.data_reader arguments:name:username, value:test
+name:password, value:
+name:salt, value:+0sypwxgNC1CW2Q9nran3g==
+name:email, value:test@admin.com
+09/17/2014 3:40:27.161 AM - INFO  - USER_DATA_PROVIDER.user_by_email
+09/17/2014 3:40:29.115 AM - INFO  - DATABASE_QUERY.data_reader execute query: select * from Users where email =:email;
+09/17/2014 3:40:29.171 AM - DEBUG - DATABASE_QUERY.data_reader arguments:name:email, value:test@admin.com
+09/17/2014 3:40:32.662 AM - ERROR - DATABASE_QUERY.ODBC ERROR: <2>, Inter code: <18>
+ODBC ERROR: <2>, Inter code: <12>
+
+ Can't Connect to the assigned Data Source!
+ The name may be misspelled or 
+ The data source is being used by someone else exclusively!ODBC ERROR: <2>, Inter code: <0>
+09/17/2014 3:41:36.983 AM - INFO  - The application is starting up...
+09/17/2014 3:41:37.038 AM - INFO  - USER_DATA_PROVIDER.new_user
+09/17/2014 3:41:37.066 AM - INFO  - DATABASE_QUERY.data_reader execute query: insert into users (username, password, salt, email) values (:username, :password, :salt, :email);
+09/17/2014 3:41:37.084 AM - DEBUG - DATABASE_QUERY.data_reader arguments:name:username, value:test
+name:password, value:
+name:salt, value:AZEuAK05NmP6RoXe6uR6ug==
+name:email, value:test
+09/17/2014 3:42:23.614 AM - INFO  - The application is starting up...
+09/17/2014 3:42:23.630 AM - INFO  - DATABASE_QUERY.data_reader execute query: delete from Nodes
+09/17/2014 3:42:23.657 AM - DEBUG - DATABASE_QUERY.data_reader arguments:
+09/17/2014 3:42:23.680 AM - INFO  - DATABASE_QUERY.data_reader execute query: delete from Users
+09/17/2014 3:42:23.713 AM - DEBUG - DATABASE_QUERY.data_reader arguments:
+09/17/2014 3:42:23.740 AM - INFO  - USER_DATA_PROVIDER.new_user
+09/17/2014 3:42:23.768 AM - INFO  - DATABASE_QUERY.data_reader execute query: insert into users (username, password, salt, email) values (:username, :password, :salt, :email);
+09/17/2014 3:42:23.787 AM - DEBUG - DATABASE_QUERY.data_reader arguments:name:username, value:admin
+name:password, value:
+name:salt, value:wmJKfTVdCA+kGHXgGUEOtA==
+name:email, value:admin@admin.com
+09/17/2014 3:42:23.821 AM - INFO  - USER_DATA_PROVIDER.new_user
+09/17/2014 3:42:23.841 AM - INFO  - DATABASE_QUERY.data_reader execute query: insert into users (username, password, salt, email) values (:username, :password, :salt, :email);
+09/17/2014 3:42:23.868 AM - DEBUG - DATABASE_QUERY.data_reader arguments:name:username, value:test
+name:password, value:
+name:salt, value:UNDPq50UQFToyAXaUL/cVQ==
+name:email, value:test@admin.com
+09/17/2014 3:42:23.892 AM - INFO  - USER_DATA_PROVIDER.user_by_email
+09/17/2014 3:42:23.923 AM - INFO  - DATABASE_QUERY.data_reader execute query: select * from Users where email =:email;
+09/17/2014 3:42:23.941 AM - DEBUG - DATABASE_QUERY.data_reader arguments:name:email, value:test@admin.com
+09/17/2014 3:42:23.972 AM - ERROR - DATABASE_QUERY.ODBC ERROR: <2>, Inter code: <18>
+ODBC ERROR: <2>, Inter code: <12>
+
+ Can't Connect to the assigned Data Source!
+ The name may be misspelled or 
+ The data source is being used by someone else exclusively!ODBC ERROR: <2>, Inter code: <0>
+09/17/2014 3:42:24.012 AM - CRIT  - DATABASE_HANDLER_IMPL.set_last_error The following exception was raised: connected
+09/17/2014 3:42:24.030 AM - CRIT  - DATABASE_HANDLER_IMPL.set_last_error_from_exception The following exception was raised: connected
+09/17/2014 3:42:24.056 AM - CRIT  - DATABASE_HANDLER_IMPL.execute_query The following exception was raised: connected
