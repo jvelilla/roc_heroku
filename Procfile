@@ -1,1 +1,1 @@
-worker: roc_api_nino $PORT
+worker: roc_api $PORT
