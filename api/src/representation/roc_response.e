@@ -51,7 +51,7 @@ feature -- Element change
 
 	set_value (a_value: detachable ANY; a_key: READABLE_STRING_GENERAL)
 		do
-			template.add_value (a_value, a_key)
+			template.add_value (a_value, a_key.as_string_8)
 		end
 
 
