@@ -29,7 +29,7 @@
 		<library name="wsf" location="$ISE_LIBRARY\contrib\library\web\framework\ewf\wsf\wsf-safe.ecf"/>
 		<library name="wsf_extension" location="$ISE_LIBRARY\contrib\library\web\framework\ewf\wsf\wsf_extension-safe.ecf" readonly="false"/>
 	</target>
-	<target name="roc_api" etends="common">
+	<target name="roc_api" extends="common">
 		<root class="ROC_SERVER" feature="make_and_launch"/>
 		<library name="default_nino" location="$ISE_LIBRARY\contrib\library\web\framework\ewf\wsf\default\nino-safe.ecf"/>
 		<cluster name="launcher" location=".\api\launcher\default\" recursive="true"/>
