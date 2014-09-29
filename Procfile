@@ -1,1 +1,1 @@
-worker: roc_api $PORT
+web: roc_api $PORT
